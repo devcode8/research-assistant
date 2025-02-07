@@ -1,2 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 .env
-.env
+.venv
+env/
+venv/
+poetry.lock
+
+# Poetry-specific files
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+*.db
+*.csv
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS system files
+.DS_Store
